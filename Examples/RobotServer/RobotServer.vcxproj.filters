@@ -1,0 +1,2567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDKLibrary">
+      <UniqueIdentifier>{ef8ea1ef-d016-48b6-8566-9c027f6ba31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface">
+      <UniqueIdentifier>{c2695937-961c-4c44-a6b6-2426734468ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common">
+      <UniqueIdentifier>{58281bf9-4058-419a-8f22-12d21a8e59ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server">
+      <UniqueIdentifier>{c0c9f0e9-8159-4d9f-a58d-8de52ff3d043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific">
+      <UniqueIdentifier>{a5035c8b-79cd-494c-88db-5924f4c6c19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable">
+      <UniqueIdentifier>{06a58f2e-7d4e-4364-845a-2b99e7d69f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable">
+      <UniqueIdentifier>{3cfa4ad7-c3ff-45d1-a53a-32478e0caa05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\platform_specific">
+      <UniqueIdentifier>{729b95ee-ee57-476a-8f37-826d256254b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\platform_specific\server_class">
+      <UniqueIdentifier>{8cf38e24-6958-4431-9a36-7aed7ccfa710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\platform_specific\server_class\windows_linux_mt">
+      <UniqueIdentifier>{044a3818-3626-449b-9fa2-32c20b87ac06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\address_space">
+      <UniqueIdentifier>{df0ae573-405d-48e1-bfb6-40cb15d375b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\data_types">
+      <UniqueIdentifier>{41d920a5-da6f-4dff-8ddc-33fa5451e586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\miscellaneous">
+      <UniqueIdentifier>{29a6ba95-fd4c-4fa0-b982-130d45a3640e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\smart_pointers">
+      <UniqueIdentifier>{9a3829f4-fc85-4216-aefd-6e9b4fb96a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\address_space\helpers">
+      <UniqueIdentifier>{355d347e-294e-4eab-a929-5b42dd53dbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\data_types\helper">
+      <UniqueIdentifier>{e081bb0f-736c-4bb6-92f9-8f742d52ed0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\atomic">
+      <UniqueIdentifier>{c5b8db5d-6372-4a4a-adb6-aae286a6452f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\crypto">
+      <UniqueIdentifier>{878f7ce7-5878-4600-92c7-5c5e90f525a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\file">
+      <UniqueIdentifier>{9943526f-d98d-43d8-a7ef-cd9aaec74d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\library">
+      <UniqueIdentifier>{f62d9e0c-979b-4b9d-acf0-b324644aed36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\locks">
+      <UniqueIdentifier>{6277ea50-2d95-4c82-a8f6-02831064e092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\ref_count">
+      <UniqueIdentifier>{33c009e8-775f-47e0-b54f-86fdf16046ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\tcpip">
+      <UniqueIdentifier>{34ebc1e4-eeec-4692-94e6-3bfe90fa1f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\thread_pool">
+      <UniqueIdentifier>{7ddacc1e-2200-4acc-9a63-ebe5b3a544f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\timers">
+      <UniqueIdentifier>{87b7ff58-f861-46af-9f0d-01ca0f013982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\xml">
+      <UniqueIdentifier>{fe88ac91-8891-4481-93ee-5bc6b49fd3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\atomic\cpp11">
+      <UniqueIdentifier>{67119f8d-0a76-495e-b4cb-446d649ecab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\crypto\common">
+      <UniqueIdentifier>{8d03cfd2-2475-40c6-8dd1-1e0c78bcae02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\file\linux_windows">
+      <UniqueIdentifier>{10a886a0-abb0-4871-8e51-fdc3ba73ce15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\library\linux_windows">
+      <UniqueIdentifier>{102cf11c-9cfa-4ce1-a99f-c9e9598c0d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\locks\cpp11">
+      <UniqueIdentifier>{f0fee8b0-1996-41d3-8b08-1a841e05c3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\xml\tinyxml2">
+      <UniqueIdentifier>{4d23c4a9-a194-4215-bf5a-530b5cd1bdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\timers\cpp11">
+      <UniqueIdentifier>{7fccda2d-0e62-4085-b886-7a76c61a1387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt">
+      <UniqueIdentifier>{c2328d9f-db8e-4405-81ff-03ad777e6740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt">
+      <UniqueIdentifier>{c8682295-3a96-4420-81c6-1422c95bc4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\ref_count\cpp11">
+      <UniqueIdentifier>{f83b6b6f-87cc-4de8-a58f-51a013b6b720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\platform_specific\crypto\mbedtls">
+      <UniqueIdentifier>{a139df67-7493-49f2-b22f-caf350ce6e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\data_types\events">
+      <UniqueIdentifier>{73ec4526-3934-4a8f-9130-20415e88b62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\data_types\events\content_filter">
+      <UniqueIdentifier>{c9d8bc1c-06a6-4789-ba8e-2dcea5dfa7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\common\portable\ua_messages">
+      <UniqueIdentifier>{9dd7c15b-fcb4-457f-bf8b-fd422dbe77f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable\events">
+      <UniqueIdentifier>{f0e18b0c-c9a4-41e1-ad24-0e1593d52b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable\events\alarms_conditions">
+      <UniqueIdentifier>{841b6094-1361-437f-a7bb-b821ae33480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable\events\data_types">
+      <UniqueIdentifier>{13ed8c59-70d8-4a80-8b81-b47ab6eb4604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable\events\helper">
+      <UniqueIdentifier>{4b97db94-58cb-46e3-bf9c-ae97ed9e7545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables">
+      <UniqueIdentifier>{7c59f580-f9bd-4b84-8934-1009faf7a3e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\platform_specific\server_class\windows_linux_mt\uaserver_t.h">
+      <Filter>SDKLibrary\interface\server\platform_specific\server_class\windows_linux_mt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\smart_pointers\intrusive_ptr_t.h">
+      <Filter>SDKLibrary\interface\common\portable\smart_pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\smart_pointers\iref_count_t.h">
+      <Filter>SDKLibrary\interface\common\portable\smart_pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\smart_pointers\scoped_array_ptr_t.h">
+      <Filter>SDKLibrary\interface\common\portable\smart_pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\smart_pointers\scoped_ptr_t.h">
+      <Filter>SDKLibrary\interface\common\portable\smart_pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\atomic\cpp11\atomic_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\atomic\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\crypto\common\dirent.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\crypto\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\file\linux_windows\std_file_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\file\linux_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\locks\windows\lock_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\locks\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\xml\tinyxml2\tinyxml2.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\xml\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\timers\cpp11\timer_provider_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\timers\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt\thread_pool_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt\file_descriptors_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt\tcp_connection_platform_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\ref_count\cpp11\safe_ref_count_array_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\ref_count\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\ref_count\cpp11\safe_ref_count_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\ref_count\cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="uasdk_custom_build_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt\async_operation_t.h">
+      <Filter>SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\address_space_utilities_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\analog_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\array_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\base_data_variable_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\base_object_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\browse_names_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\cube_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\data_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\discrete_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\file_property_reader_writer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\file_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\folder_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\helper_base_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\image_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\localisation_value_attribute_reader_writer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\method_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\multi_state_discrete_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\multi_state_value_discrete_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\n_dimension_array_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\node_with_instrument_range_property_value_attribute_reader_writer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\read_only_nodes.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\two_state_discrete_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\value_as_text_value_attribute_reader_writer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\xy_array_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\helpers\y_array_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iaddress_space_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iaddress_space_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\icallback_event_historized_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\idata_type_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\imethod_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_application_context_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_attribute_about_to_be_read_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_attribute_changed_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_method_handler_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_references_changed_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\inode_value_attribute_reader_writer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iobject_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iobject_type_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\ireference_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\ireference_type_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iuser_permissions_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\ivariable_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\ivariable_type_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\address_space\iview_node_t.h">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\helper\opcua_datatype_utilities_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\helper\opcua_iruntime_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\access_level_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\attribute_id_mask_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\event_notifier_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\node_type_mask_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_nodes_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_nodes_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_references_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_anonymous_identity_token_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_app_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_application_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_argument_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_array_ua_base_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_array_ua_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_attribute_id_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_axis_information_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_axis_scale_enumeration_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_base_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_boolean_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_continuation_point_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_direction_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_target_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_build_info_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_byte_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_bytestring_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_call_method_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_call_method_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_channel_security_token_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_complex_number_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_change_filter_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_change_notification_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_value_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_datatype_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_date_time_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_delete_nodes_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_delete_references_item_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_diagnostic_info_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_discovery_configuration_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_double_complex_number_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_double_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_duration_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_endpoint_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_enum_value_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_enumeration_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_eu_information_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_expanded_node_id_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_extensible_parameter_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_float_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_guid_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int16_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int32_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int64_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_localized_text_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_message_security_mode_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_method_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_create_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_create_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_modify_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_modify_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_notification_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_parameters_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_monitoring_mode_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_class_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_guid_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_numeric_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_opaque_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_string_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_nodetype_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_notification_message_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_number_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_object_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_objecttype_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_parsing_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_qualified_name_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_querydata_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_querydata_set_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_range_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_read_value_id_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_redundancy_support_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_reference_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_referencetype_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_registered_server_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_relative_path_element_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_sbyte_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_security_token_request_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_diagnostics_summary_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_on_network_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_state_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_status_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_service_counter_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_session_diagnostics_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_session_security_diagnostics_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_signature_data_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_signed_software_certificate.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_status_change_notification_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_status_code_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_string_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_structure_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_subscription_acknowledgement_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_subscription_diagnostics_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_time_zone_data_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_timestamps_to_return_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_transfer_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint16_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint32_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint64_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_user_identity_token_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_user_token_policy_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_username_identity_token_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_variable_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_variabletype_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_view_attributes_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_view_description_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_write_value_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_x509_identity_token_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_xml_element_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\opcua_xv_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\write_mask_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\attribute_operand_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_and_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_between_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_bitwise_and_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_bitwise_or_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_cast_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_equals_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_greater_than_or_equal_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_greater_than_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_in_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_in_view_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_is_null_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_less_than_or_equal_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_less_than_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_like_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_not_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_of_type_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_or_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_related_to_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\element_operand_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\filter_operand_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\filter_operator_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\icontent_filter_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\literal_operand_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\simple_attribute_operand_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\type_conversion_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_field_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_filter_result_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_filter_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_notification_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\allocatable_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\array_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\auto_lock_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\buffer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\certificate_generation_parameters_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\certificate_validation_options_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\common_utilities_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\hash_set_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\iallocator_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\iapplication_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ibuffer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\icertificate_private_key_password_provider_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\icertificate_rejected_list_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\icodec_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ifile_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ifile_ua_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\iintrusive_embedded_queue_support_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\iiterator_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ilocalizable_text_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ilog_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\intrusive_embedded_queue_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\intrusive_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ioperation_complete_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ip_endpoint_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ipendpoint_provider_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\irunnable_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\itcp_connection_core_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\itcp_connection_platform_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\itcp_connection_provider_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ithread_pool_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\itimer_provider_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\itransaction_listener_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ixml_nodeset_io_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\linked_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\localizable_text_from_display_name_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\localizable_text_stored_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\logger_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\opcua_identifiers.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\opcua_status_codes.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\pod_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\prng.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\registration_agent_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\safe_intrusive_embedded_queue_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\safe_intrusive_list_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\safe_intrusive_queue_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\status_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\storage_buffer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ua_binary_codec_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ua_security.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\ua_system_calls.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\uasdk_c_declarations.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\uasdk_default_build_config.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\uasdk_includes.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\utilities.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\miscellaneous\wrap_buffer_t.h">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_activate_session_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_activate_session_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_nodes_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_nodes_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_references_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_references_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_next_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_next_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_call_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_call_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_cancel_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_cancel_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_secure_channel_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_session_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_session_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_monitored_items_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_monitored_items_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_session_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_session_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_subscription_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_subscription_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_monitored_items_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_monitored_items_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_nodes_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_nodes_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_references_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_references_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_subscriptions_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_subscriptions_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_onnetwork_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_onnetwork_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_get_endpoints_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_get_endpoints_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_message_ua_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_monitored_items_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_monitored_items_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_subscription_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_subscription_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_open_secure_channel_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_open_secure_channel_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_publish_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_publish_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_first_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_first_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_next_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_next_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_read_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_read_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_nodes_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_nodes_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server2_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server2_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_republish_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_republish_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_request_header_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_request_message_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_response_header_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_response_message_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_service_fault_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_monitoring_mode_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_monitoring_mode_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_publishing_mode_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_publishing_mode_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_triggering_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_triggering_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_transfer_subscriptions_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_transfer_subscriptions_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_translate_browse_paths_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_translate_browse_paths_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_unregister_nodes_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_unregister_nodes_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_write_request_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_write_response_t.h">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\imonitored_item_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\iregister_node_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\iserver_configuration_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\iserver_core_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\iserver_state_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\isession_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\iuser_permissions_provider_t.h">
+      <Filter>SDKLibrary\interface\server\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\audit_event_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\event_type_activation_bits_defs.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\iattribute_access_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\iaudit_event_attribute_logger_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\iaudit_event_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\icallback_event_historized_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\icallback_event_logged_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\ievent_dispatcher_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\ievent_id_generator_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\inode_event_listener_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\helper\default_event_properties_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\helper\event_helper_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\acknowledgeable_condition_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\alarm_condition_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_activate_session_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_cancel_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_data_mismatch_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_expired_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_invalid_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_mismatch_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_revoked_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_untrusted_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_channel_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_acknowledge_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_comment_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_confirm_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_enable_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_respond_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_shelving_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_create_session_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_history_update_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_open_secure_channel_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_security_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_session_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_update_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_update_method_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_url_mismatch_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_write_update_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\base_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\base_model_change_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\certificate_expiration_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\condition_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\device_failure_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\discrete_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\event_queue_overflow_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\general_model_change_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\generated_data_classes.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\limit_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\off_normal_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_event_severity_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_model_change_structure_data_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_semantic_change_structure_data_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\progress_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_end_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_required_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_start_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\semantic_change_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\system_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\system_off_normal_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\system_status_change_event_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\data_types\trip_alarm_type_data_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\acknowledgeable_condition_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\address_space_modeler_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\alarm_condition_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\base_condition_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\certificate_expiration_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\discrete_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\icondition_registrar_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\icondition_state_update_handler_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\icondition_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\itimer_complete_handler_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\limit_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\off_normal_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\system_off_normal_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\trip_alarm_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\condition_variable_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_state_machine_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_state_variable_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_transition_variable_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\state_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\transition_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\two_state_variable_type_t.h">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\platform_specific\server_class\windows_linux_mt\uaserver_t.cpp">
+      <Filter>SDKLibrary\interface\server\platform_specific\server_class\windows_linux_mt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\file\linux_windows\std_file_t.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\file\linux_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\library\linux_windows\system_calls.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\library\linux_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\xml\tinyxml2\tinyxml2.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\xml\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\timers\cpp11\timer_provider_t.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\timers\cpp11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt\thread_pool_t.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt\tcp_connection_platform_t.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\tcpip\windows_linux_sockets_select_mt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt\async_operation_t.cpp">
+      <Filter>SDKLibrary\interface\common\platform_specific\thread_pool\cpp11_mt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\address_space_utilities_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\analog_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\array_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\base_data_variable_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\base_object_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\browse_names_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\cube_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\data_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\file_property_reader_writer_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\file_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\folder_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\helper_base_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\image_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\localisation_value_attribute_reader_writer_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\method_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\multi_state_discrete_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\multi_state_value_discrete_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\n_dimension_array_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\node_with_instrument_range_property_value_attribute_reader_writer_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\read_only_nodes.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\two_state_discrete_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\value_as_text_value_attribute_reader_writer_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\xy_array_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\helpers\y_array_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\idata_type_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\imethod_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\inode_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\iobject_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\iobject_type_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\ireference_type_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\ivariable_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\ivariable_type_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\address_space\iview_node_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\address_space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\helper\opcua_datatype_utilities_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\helper\opcua_iruntime_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\access_level_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\event_notifier_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_nodes_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_nodes_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_add_references_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_anonymous_identity_token_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_app_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_application_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_argument_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_array_ua_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_axis_information_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_axis_scale_enumeration_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_base_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_boolean_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_continuation_point_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_direction_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_path_target_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_browse_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_build_info_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_byte_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_bytestring_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_call_method_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_call_method_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_channel_security_token_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_complex_number_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_change_filter_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_change_notification_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_data_value_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_datatype_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_date_time_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_delete_nodes_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_delete_references_item_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_diagnostic_info_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_discovery_configuration_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_double_complex_number_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_double_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_duration_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_endpoint_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_enum_value_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_enumeration_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_eu_information_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_expanded_node_id_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_extensible_parameter_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_float_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_guid_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int16_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int32_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_int64_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_localized_text_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_message_security_mode_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_method_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_create_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_create_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_modify_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_modify_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_item_notification_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_mon_parameters_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_monitoring_mode_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_class_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_guid_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_numeric_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_opaque_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_string_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_node_id_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_nodetype_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_notification_message_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_object_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_objecttype_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_parsing_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_qualified_name_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_querydata_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_querydata_set_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_range_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_read_value_id_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_redundancy_support_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_reference_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_referencetype_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_registered_server_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_relative_path_element_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_sbyte_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_security_token_request_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_diagnostics_summary_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_on_network_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_state_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_server_status_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_service_counter_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_session_diagnostics_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_session_security_diagnostics_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_signature_data_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_signed_software_certificate.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_status_change_notification_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_status_code_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_string_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_structure_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_subscription_acknowledgement_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_subscription_diagnostics_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_time_zone_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_timestamps_to_return_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_transfer_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint16_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint32_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_uint64_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_user_identity_token_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_user_token_policy_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_username_identity_token_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_variable_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_variabletype_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_view_attributes_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_view_description_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_write_value_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_x509_identity_token_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_xml_element_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\opcua_xv_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\write_mask_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\attribute_operand_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_and_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_between_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_bitwise_and_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_bitwise_or_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_cast_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_equals_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_greater_than_or_equal_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_greater_than_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_in_list_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_in_view_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_is_null_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_less_than_or_equal_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_less_than_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_like_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_not_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_of_type_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_or_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_related_to_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_element_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\content_filter_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\element_operand_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\filter_operand_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\filter_operator_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\literal_operand_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\simple_attribute_operand_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\content_filter\type_conversion_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events\content_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_field_list_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_filter_result_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_filter_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\data_types\events\opcua_event_notification_list_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\data_types\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\common_utilities_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\localizable_text_from_display_name_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\localizable_text_stored_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\logger_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\registration_agent_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\status_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\miscellaneous\utilities.cpp">
+      <Filter>SDKLibrary\interface\common\portable\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_activate_session_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_activate_session_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_nodes_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_nodes_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_references_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_add_references_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_next_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_next_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_browse_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_call_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_call_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_cancel_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_cancel_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_secure_channel_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_session_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_close_session_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_monitored_items_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_monitored_items_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_session_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_session_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_subscription_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_create_subscription_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_monitored_items_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_monitored_items_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_nodes_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_nodes_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_references_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_references_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_subscriptions_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_delete_subscriptions_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_onnetwork_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_onnetwork_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_find_servers_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_get_endpoints_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_get_endpoints_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_monitored_items_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_monitored_items_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_subscription_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_modify_subscription_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_open_secure_channel_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_open_secure_channel_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_publish_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_publish_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_first_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_first_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_next_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_query_next_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_read_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_read_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_nodes_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_nodes_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server2_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_register_server2_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_republish_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_republish_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_request_header_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_request_message_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_response_header_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_response_message_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_service_fault_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_monitoring_mode_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_monitoring_mode_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_publishing_mode_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_publishing_mode_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_triggering_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_set_triggering_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_transfer_subscriptions_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_transfer_subscriptions_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_translate_browse_paths_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_translate_browse_paths_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_unregister_nodes_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_unregister_nodes_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_write_request_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\portable\ua_messages\opcua_write_response_t.cpp">
+      <Filter>SDKLibrary\interface\common\portable\ua_messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\audit_event_listener_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\iattribute_access_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\acknowledgeable_condition_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\alarm_condition_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_activate_session_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_cancel_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_data_mismatch_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_expired_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_invalid_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_mismatch_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_revoked_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_certificate_untrusted_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_channel_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_acknowledge_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_comment_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_confirm_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_enable_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_respond_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_condition_shelving_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_create_session_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_history_update_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_open_secure_channel_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_security_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_session_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_update_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_update_method_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_url_mismatch_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\audit_write_update_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\base_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\base_model_change_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\certificate_expiration_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\condition_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\device_failure_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\discrete_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\event_queue_overflow_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\general_model_change_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\limit_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\off_normal_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_event_severity_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_model_change_structure_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\opcua_semantic_change_structure_data_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\progress_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_end_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_required_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\refresh_start_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\semantic_change_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\system_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\system_off_normal_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\system_status_change_event_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\data_types\trip_alarm_type_data_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\acknowledgeable_condition_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\address_space_modeler_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\alarm_condition_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\base_condition_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\certificate_expiration_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\discrete_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\icondition_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\limit_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\off_normal_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\system_off_normal_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\trip_alarm_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\condition_variable_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_state_machine_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_state_variable_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\finite_transition_variable_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\state_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\transition_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables\two_state_variable_type_t.cpp">
+      <Filter>SDKLibrary\interface\server\portable\events\alarms_conditions\state_variables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDKLibrary\interface\common\platform_specific\crypto\common\dirent.c">
+      <Filter>SDKLibrary\interface\common\platform_specific\crypto\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Opc.Ua.NodeSet2_1_03.xml" />
+    <Xml Include="RobotServer.NodeSet2.xml" />
+    <Xml Include="RobotServer.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="identifiers.csv" />
+  </ItemGroup>
+</Project>

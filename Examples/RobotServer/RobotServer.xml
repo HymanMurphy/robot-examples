@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<opc:ModelDesign xmlns:opc="http://opcfoundation.org/UA/ModelDesign.xsd" DefaultLocale="en" TargetNamespace="http://opcfoundation.org/UA/RobotServer/" xmlns="http://opcfoundation.org/UA/RobotServer/" xmlns:ua="http://opcfoundation.org/UA/" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://opcfoundation.org/UA/ModelDesign.xsd opc_with_namespace.xsd">
+  <opc:Namespaces>
+    <opc:Namespace InternalPrefix="Opc.Ua.Server" Name="OpcUa" Prefix="Opc.Ua" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd">http://opcfoundation.org/UA/</opc:Namespace>
+    <opc:Namespace Name="RobotServer" Prefix="RobotServer">http://opcfoundation.org/UA/RobotServer/</opc:Namespace>
+  </opc:Namespaces>
+  <opc:Method IsDeclaration="false" MaxCardinality="0" MinCardinality="0" NonExecutable="false" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="StopMethodType" WriteAccess="0">
+    <opc:InputArguments/>
+    <opc:OutputArguments/>
+  </opc:Method>
+  <opc:Method IsDeclaration="false" MaxCardinality="0" MinCardinality="0" NonExecutable="false" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="MultiplyMethodType" WriteAccess="0">
+    <opc:InputArguments>
+      <opc:Argument ArrayDimensions="" DataType="ua:Double" Name="a" ValueRank="Scalar">
+        <opc:Description Key="">A</opc:Description>
+      </opc:Argument>
+      <opc:Argument ArrayDimensions="" DataType="ua:Double" Name="b" ValueRank="Scalar">
+        <opc:Description Key="">B</opc:Description>
+      </opc:Argument>
+    </opc:InputArguments>
+    <opc:OutputArguments>
+      <opc:Argument ArrayDimensions="" DataType="ua:Double" Name="result" ValueRank="Scalar">
+        <opc:Description Key="">Result</opc:Description>
+      </opc:Argument>
+    </opc:OutputArguments>
+  </opc:Method>
+  <opc:ObjectType BaseType="ua:BaseObjectType" IsAbstract="false" IsDeclaration="false" NoClassGeneration="false" PartNo="0" SymbolicName="RobotType" WriteAccess="0">
+    <opc:Children>
+      <opc:Property DataType="ua:Int16" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Speed" WriteAccess="0"/>
+      <opc:Property DataType="ua:Int16" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Mode" WriteAccess="0"/>
+      <opc:Property DataType="ua:Boolean" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Laser" WriteAccess="0"/>
+      <opc:Property DataType="ua:Float" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Axis4" WriteAccess="0"/>
+      <opc:Property DataType="ua:Float" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Axis3" WriteAccess="0"/>
+      <opc:Property DataType="ua:Float" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Axis2" WriteAccess="0"/>
+      <opc:Property DataType="ua:Float" IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Axis1" WriteAccess="0"/>
+      <opc:Method IsDeclaration="false" MaxCardinality="0" MinCardinality="0" NonExecutable="false" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Stop" TypeDefinition="StopMethodType" WriteAccess="0">
+        <opc:InputArguments/>
+        <opc:OutputArguments/>
+      </opc:Method>
+      <opc:Method IsDeclaration="false" MaxCardinality="0" MinCardinality="0" NonExecutable="false" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Multiply" TypeDefinition="MultiplyMethodType" WriteAccess="0">
+        <opc:InputArguments/>
+        <opc:OutputArguments/>
+      </opc:Method>
+    </opc:Children>
+    <opc:References/>
+  </opc:ObjectType>
+  <opc:Object IsDeclaration="false" MaxCardinality="0" MinCardinality="0" PartNo="0" PreserveDefaultAttributes="false" SymbolicName="Robot1" TypeDefinition="RobotType" WriteAccess="0">
+    <opc:References>
+      <opc:Reference IsInverse="true" IsOneWay="false">
+        <opc:ReferenceType>ua:Organizes</opc:ReferenceType>
+        <opc:TargetId>ua:ObjectsFolder</opc:TargetId>
+      </opc:Reference>
+    </opc:References>
+  </opc:Object>
+</opc:ModelDesign>
